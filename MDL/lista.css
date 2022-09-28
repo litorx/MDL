@@ -1,0 +1,19 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: red;
+}
+ul{
+    margin: 0; padding: 0; list-style: none;
+}
+li{
+    width: 200px;
+    padding: 5px;
+    background:black;
+    margin-bottom: 1px;
+}
+li:nth-child(odd){
+    background-color: red;
+    color: black;
+}
+/*Even para os pares e odd para impar
